@@ -25,6 +25,14 @@ div.buscador{
     padding-left: 1%;
 
 }
+button {
+    border: 1px solid #ededed;
+    box-shadow: 0px 0px 10px rgb(207, 206, 206);
+    background-color: white;
+    border-radius: 6px;
+    padding: 1%;
+ }
+
 
 div.burger-menu{
     display: block;
@@ -144,8 +152,41 @@ footer div.footer {
     text-align: center;
 
 }
+i.fa-solid.fa-gift {
+    color: rgb(15, 15, 211); 
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem; 
+    margin-bottom: 2%;
+ }
+    
+i.fa-solid.fa-gift:hover { 
+color: #EAC926;
+}
 
+i.fa-solid.fa-credit-card {
+    color: rgb(15, 15, 211); 
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem; 
+    margin-bottom: 2%;
+ }
+    
+i.fa-solid.fa-credit-card:hover { 
+color: #EAC926;
+}
 
+i.fa-solid.fa-user-shield {
+    color: rgb(15, 15, 211); 
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem; 
+    margin-bottom: 2%;
+ }
+    
+i.fa-solid.fa-user-shield:hover { 
+color: #EAC926;
+}
 nav ul li {
     display: none;
    
@@ -192,13 +233,16 @@ input {
  }
 button#enviar{
     color: #fff;
-    background-color: rgb(15, 15, 211);
+    background-color: rgb(34, 34, 211);
     border: 1px solid #ededed;
     box-shadow: 0px 0px 10px rgb(207, 206, 206);
     border-radius: 6px;
     padding: 6px;
 }
 
+button#enviar:hover {
+    background-color: #0022AA;
+}
 
 
 @media (min-width: 361px) { 
